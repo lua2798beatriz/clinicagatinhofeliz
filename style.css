@@ -1,0 +1,21 @@
+header{
+    background-color: #dd6eb6;
+    align-items: center;
+}
+
+
+.navbar-custom {
+  background-color: #5e6594; /* azul personalizado */
+  border-bottom: 2px solid #2c3e50;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: white;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #dd6eb6; /* amarelo no hover */
+}
+
+
