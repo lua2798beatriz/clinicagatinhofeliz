@@ -1,17 +1,16 @@
 header {
     background-color: #dd6eb6;
-
 }
 
-.logotipo{
-   max-height: 300px;
-    width: auto; 
-  display: block;
-  margin: 0 auto;
+.logotipo {
+    max-height: 300px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .navbar-custom {
-    background-color: #5e6594; /* azul personalizado */
+    background-color: #5e6594;
     border-bottom: 2px solid #2c3e50;
     font-size: 20px;
 }
@@ -21,19 +20,9 @@ header {
 }
 
 .navbar-custom .nav-link:hover {
-    color: #dd6eb6; /* amarelo no hover */
-
+    color: #dd6eb6; 
 }
 
-
-.circle-img {
-    border-radius: 50%;
-    width: 100%;
-    max-width: 150px;
-    height: auto;
-    object-fit: cover;
-    border: 4px solid #dd6eb6;
-}
 body {
     background-color: #f8f1d9;
 }
@@ -48,6 +37,14 @@ body {
     object-fit: cover;
 }
 
+.circle-img {
+    border-radius: 50%;
+    width: 150%;
+    max-width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #dd6eb6;
+}
 footer {
     background: #dd6eb6;
     padding: 20px 0;
@@ -55,20 +52,4 @@ footer {
     color: #f8f1d9;
     font-size: 15px;
     margin-top: 40px;
-}
-
-
-
-@media (max-width: 600px) {
-    .carousel-inner,
-    .carousel-item img {
-        height: 140px;
-    }
-}
-
-.circle-img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
 }
